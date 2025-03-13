@@ -16,6 +16,7 @@ export default function Header() {
     const fetchCategories = useAppStore((state) => state.fetchCategories)
     const categories = useAppStore((state) => state.categories)
     const searchRecipes = useAppStore((state) => state.searchRecipes)
+    const showNotification = useAppStore((state) => state.showNotification)
 
     useEffect(() => {
         fetchCategories()
@@ -33,7 +34,10 @@ export default function Header() {
 
         //validate
         if(Object.values(searchFilters).includes('')) {
-            console.log('Todos los cmapos son obligatorios')
+            showNotification({
+                text: 'Todos los campos son obligatorios',
+                error: true
+            })
             return
         }
 
@@ -52,7 +56,7 @@ export default function Header() {
                         <NavLink 
                             to="/" 
                             className={({isActive}) => 
-                                isActive? 'text-orange-500 uppercase font-bold' : 'text-white uppercase font-bold'
+                                isActive? 'text-orange-500 uppercase font-bold scale-110' : 'text-white uppercase font-bold'
                         }>Inicio</NavLink>
                         <NavLink 
                             to="/favorites" 
@@ -108,7 +112,7 @@ export default function Header() {
                         <input 
                             type="submit"
                             value='Buscar Recetas'
-                            className='cursor-pointer bg-orange-800 hover:bg-orange-900 text-white font-extrabold w-full p-2 rounded-lg uppercase'
+                            className='cursor-pointer bg-orange-500 hover:bg-orange-600 text-white font-extrabold w-full p-2 rounded-lg uppercase'
                         />
                     </form>
                 )}
