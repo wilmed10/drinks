@@ -46,13 +46,13 @@ export default function Header() {
     }
 
     return (
-        <header className={ isHome ? 'bg-[url(./img/bg2.jpg)] bg-cover bg-center' : 'bg-slate-800'}>
+        <header className={ isHome ? 'bg-[url(/img/bg3.jpg)] bg-cover bg-center' : 'bg-slate-800'}>
             <div className="mx-auto container px-10 py-8">
                 <div className="flex justify-between items-center">
                     <div>
-                        <img className="w-32" src="./img/logo.svg" alt="fondo" />
+                        <img className="w-36" src="./img/cocktaiLogo.png" alt="fondo" />
                     </div>
-                    <nav className='flex gap-6 bg-[#122c34] p-3 rounded-lg'>
+                    <nav className='flex gap-6 p-3 rounded-lg'>
                         <NavLink 
                             to="/" 
                             className={({isActive}) => 
@@ -67,7 +67,7 @@ export default function Header() {
                 </div>
                 { isHome && (
                     <form
-                        className='md:w-1/2 2xl:w-1/3 bg-[#122c34] my-32 p-10 rounded-lg shadow space-y-6'
+                        className='md:w-1/2 lg:w-2/5 2xl:w-1/3 bg-slate-700 my-32 p-10 rounded-lg shadow space-y-6'
                         onSubmit={handleSubmit}
                     >
                         <div className='space-y-4'>
