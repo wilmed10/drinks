@@ -37,16 +37,16 @@ A **multi-page drink recipe web app** built with **React** and **React Router DO
 - 📦 Zustand (with Slice Pattern)
 - 🚦 React Router DOM
 - 🌐 Axios – API requests
-- 🎨 Tailwind CSS (optional styling layer)
+- 🎨 Tailwind CSS
 
 
 ## 🧠 What I Learned
 
--How to configure a React + TypeScript project using Vite.
--Implementing Zustand slices for scalable state management.
--Creating a multi-page experience using React Router DOM.
--Making API calls and managing async state effectively.
--Structuring a modular and clean React project for better scalability.
+- How to configure a React + TypeScript project using Vite.
+- Implementing Zustand slices for scalable state management.
+- Creating a multi-page experience using React Router DOM.
+- Making API calls and managing async state effectively.
+- Structuring a modular and clean React project for better scalability.
 
 
 ## 📁 Project Structure
