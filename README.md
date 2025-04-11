@@ -75,6 +75,7 @@ drinks/
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
+```
 
 ---
 
@@ -94,3 +95,4 @@ npm install
 
 # Run the app
 npm run dev
+```
