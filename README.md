@@ -42,11 +42,11 @@ A **multi-page drink recipe web app** built with **React** and **React Router DO
 
 ## 🧠 What I Learned
 
--How to configure a React + TypeScript project using Vite.
--Implementing Zustand slices for scalable state management.
--Creating a multi-page experience using React Router DOM.
--Making API calls and managing async state effectively.
--Structuring a modular and clean React project for better scalability.
+- How to configure a React + TypeScript project using Vite.
+- Implementing Zustand slices for scalable state management.
+- Creating a multi-page experience using React Router DOM.
+- Making API calls and managing async state effectively.
+- Structuring a modular and clean React project for better scalability.
 
 
 ## 📁 Project Structure
@@ -75,6 +75,7 @@ drinks/
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
+```
 
 ---
 
@@ -94,3 +95,4 @@ npm install
 
 # Run the app
 npm run dev
+```
