@@ -37,7 +37,7 @@ A **multi-page drink recipe web app** built with **React** and **React Router DO
 - 📦 Zustand (with Slice Pattern)
 - 🚦 React Router DOM
 - 🌐 Axios – API requests
-- 🎨 Tailwind CSS (optional styling layer)
+- 🎨 Tailwind CSS
 
 
 ## 🧠 What I Learned
@@ -95,4 +95,8 @@ npm install
 
 # Run the app
 npm run dev
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 1bc9f6daa0f235759194a824f55b417b5995380a
