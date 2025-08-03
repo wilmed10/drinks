@@ -25,7 +25,7 @@ export default function GenerateAI() {
   
   return (
     <>
-      <h1 className="text-6xl font-extrabold">Generar Receta con IA</h1>
+      <h1 className="px-24 text-6xl font-extrabold">Generar Receta con IA</h1>
 
       <div className="max-w-4xl mx-auto">
         <form  
